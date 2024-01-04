@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B75BB67B-1698-491B-A596-494BAB191DB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Gelir_Gider_Takiip_GGT_.My.MyApplication</StartupObject>
+    <RootNamespace>Gelir_Gider_Takiip_GGT_</RootNamespace>
+    <AssemblyName>Gelir-Gider-Takiip%28GGT%29</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Dogan\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Gelir-Gider-Takiip%28GGT%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gelir-Gider-Takiip%28GGT%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7E5D817213837A7CD2079020A59E8355CC2FB8A4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v17.1.Drawing, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Spreadsheet.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPdfViewer.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpellChecker.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Excel.4.5">
+      <HintPath>C:\output\net45\Excel.4.5.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2018.2.19.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="FastReport.Bars, Version=2018.2.19.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="FastReport.Editor, Version=2018.2.19.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExceleAktar.vb" />
+    <Compile Include="Form_BankaEkle.Designer.vb">
+      <DependentUpon>Form_BankaEkle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BankaEkle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_KullaniciBilgileri.Designer.vb">
+      <DependentUpon>Form_KullaniciBilgileri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_KullaniciBilgileri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ProgramHakkinda.Designer.vb">
+      <DependentUpon>Form_ProgramHakkinda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ProgramHakkinda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AnaSayfa.Designer.vb">
+      <DependentUpon>Form_AnaSayfa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AnaSayfa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BankaHesaplari.Designer.vb">
+      <DependentUpon>Form_BankaHesaplari.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BankaHesaplari.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DurumRaporu.Designer.vb">
+      <DependentUpon>Form_DurumRaporu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DurumRaporu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Gelir.Designer.vb">
+      <DependentUpon>Form_Gelir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Gelir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GelirGiderListe.Designer.vb">
+      <DependentUpon>Form_GelirGiderListe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GelirGiderListe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Gider.Designer.vb">
+      <DependentUpon>Form_Gider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Gider.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Hatirlatma.Designer.vb">
+      <DependentUpon>Form_Hatirlatma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Hatirlatma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_NotDefterim.Designer.vb">
+      <DependentUpon>Form_NotDefterim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_NotDefterim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ParolamıUnuttum.Designer.vb">
+      <DependentUpon>Form_ParolamıUnuttum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ParolamıUnuttum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Rehberim.Designer.vb">
+      <DependentUpon>Form_Rehberim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Rehberim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SifreDegistir.Designer.vb">
+      <DependentUpon>Form_SifreDegistir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SifreDegistir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Taksitler.Designer.vb">
+      <DependentUpon>Form_Taksitler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Taksitler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Varliklarim.Designer.vb">
+      <DependentUpon>Form_Varliklarim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Varliklarim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_WebAdresim.Designer.vb">
+      <DependentUpon>Form_WebAdresim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_WebAdresim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GelirGiderListe.Designer.vb">
+      <DependentUpon>GelirGiderListe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GelirGiderListe.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kayit_Ol.Designer.vb">
+      <DependentUpon>Kayit_Ol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit_Ol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Girisi.Designer.vb">
+      <DependentUpon>Login_Girisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Girisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SchedulerTestDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SchedulerTestDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VeriTabani.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form_BankaEkle.resx">
+      <DependentUpon>Form_BankaEkle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_KullaniciBilgileri.resx">
+      <DependentUpon>Form_KullaniciBilgileri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ProgramHakkinda.resx">
+      <DependentUpon>Form_ProgramHakkinda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AnaSayfa.resx">
+      <DependentUpon>Form_AnaSayfa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BankaHesaplari.resx">
+      <DependentUpon>Form_BankaHesaplari.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DurumRaporu.resx">
+      <DependentUpon>Form_DurumRaporu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Gelir.resx">
+      <DependentUpon>Form_Gelir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GelirGiderListe.resx">
+      <DependentUpon>Form_GelirGiderListe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Gider.resx">
+      <DependentUpon>Form_Gider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Hatirlatma.resx">
+      <DependentUpon>Form_Hatirlatma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_NotDefterim.resx">
+      <DependentUpon>Form_NotDefterim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ParolamıUnuttum.resx">
+      <DependentUpon>Form_ParolamıUnuttum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Rehberim.resx">
+      <DependentUpon>Form_Rehberim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SifreDegistir.resx">
+      <DependentUpon>Form_SifreDegistir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Taksitler.resx">
+      <DependentUpon>Form_Taksitler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Varliklarim.resx">
+      <DependentUpon>Form_Varliklarim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_WebAdresim.resx">
+      <DependentUpon>Form_WebAdresim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GelirGiderListe.resx">
+      <DependentUpon>GelirGiderListe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit_Ol.resx">
+      <DependentUpon>Kayit_Ol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Girisi.resx">
+      <DependentUpon>Login_Girisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="SchedulerTestDataSet1.xsc">
+      <DependentUpon>SchedulerTestDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SchedulerTestDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SchedulerTestDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SchedulerTestDataSet1.xss">
+      <DependentUpon>SchedulerTestDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MetroFramework.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
